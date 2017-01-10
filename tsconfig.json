@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "types": [
+      "node"
+    ],
+    "lib": ["es2015", "dom"]
+  },
+  "files": [
+    "index.ts",
+    "ng2-awesome-http.ts",
+    "./src/awesome-http.service.ts",
+    "./src/cache/cache.service.ts",
+    "./src/cache/http-config.model.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bundles"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true
+  }
+}
