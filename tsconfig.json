@@ -4,6 +4,7 @@
     "target": "es5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "noEmitHelpers": false,
     "declaration": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,
